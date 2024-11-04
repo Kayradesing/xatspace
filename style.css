@@ -91,7 +91,7 @@
 
 }
  .card--navidad {
-	 background-imagen: url( "https://xatimg.com/image/unkPxxvXrihI.gif" );
+	 background: linear-gradient(110deg, #b8f4fa 0%, #2e9ba5 100%)
 	 box-shadow: 0px 5px 20px -10px #b8f4fa; 
 	 
  .card--navidad .card__type {
