@@ -28,6 +28,27 @@
 	 position: relative;
 	 transition: 0.4s;
 }
+img_parpadeo {
+	 max-height: 700px;
+	 margin: auto;
+	 display: inline-block;
+}
+ h1, h2, h3, h4, h5 {
+	 margin: 0;
+	 font-weight: 400;
+}
+.card__parpadeo {
+	 display: inline-block;
+	 width: 500px;
+	 padding: 1em;
+	 border-radius: 15px;
+	 margin: 10px;
+	 background: #000000;
+	 text-align: left;
+	 box-shadow: 0px 5px 20px -10px #111;
+	 position: relative;
+	 transition: 0.4s;
+}
  .card__caption {
 	 background-color: rgba(255, 255, 255, 0.65);
 	 padding: 1em;
