@@ -8,7 +8,7 @@
 	 margin: 20px;
 }
  img {
-	 max-height: 500px;
+	 max-height: 900px;
 	 margin: auto;
 	 display: inline-block;
 }
@@ -20,7 +20,7 @@
 	 display: inline-block;
 	 width: 200px;
 	 padding: 1em;
-	 border-radius: 15px;
+	 border-radius: 20px;
 	 margin: 10px;
 	 background: #000000;
 	 text-align: left;
@@ -29,7 +29,7 @@
 	 transition: 0.4s;
 }
 img_parpadeo {
-	 max-height: 700px;
+	 max-height: 1000px;
 	 margin: auto;
 	 display: inline-block;
 }
@@ -39,7 +39,7 @@ img_parpadeo {
 }
 .card__parpadeo {
 	 display: inline-block;
-	 width: 500px;
+	 width: 700px;
 	 padding: 1em;
 	 border-radius: 15px;
 	 margin: 10px;
@@ -69,10 +69,10 @@ img_parpadeo {
 	 color: #fff;
 	 text-transform: uppercase;
 	 font-family: "Open Sans Condensed", "Open Sans", helvetica, sans-serif;
-	 letter-spacing: 0.1em;
+	 letter-spacing: 0.05em;
 	 padding: 0.25em;
 	 line-height: 1;
-	 border-radius: 2px;
+	 border-radius: 4px;
 	 background: #bbb;
 }
  .card__label {
@@ -80,14 +80,14 @@ img_parpadeo {
 	 text-transform: uppercase;
 	 font-weight: 400;
 	 display: block;
-	 margin-bottom: 3px;
+	 margin-bottom: 6px;
 }
  .card__name {
 	 font-family: "Open Sans Condensed", "Open Sans", helvetica, sans-serif;
 	 text-align: center;
 	 font-size: 1.5em;
-	 font-weight: 700;
-	 letter-spacing: 0.02em;
+	 font-weight: 500;
+	 letter-spacing: 0.05em;
 }
  .card__stats {
 	 margin: 1em 0;
@@ -99,7 +99,7 @@ img_parpadeo {
 	 font-weight: 300;
 }
  .card__stats th, .card__stats td {
-	 width: 50%;
+	 width: 100%;
 	 padding: 0.25em 0.5em 0;
 }
  .card__abilities {
@@ -113,24 +113,24 @@ img_parpadeo {
 }
  .card--parpadeo {
 	 background: linear-gradient(110deg, #d4fca7 0%, #1e9459 100%);
-	 box-shadow: 0px 15px 20px -10px #99bfac ;
+	 box-shadow: 0px 10px 20px -10px #ffffff ;
 }
  .card--parpadeo .card__type {
 	 background-color: #7bb095;
 }
  .card--normal {
-	 background: linear-gradient(110deg, #fdbb2d 0%, #3a1c71 100%);
-	 box-shadow: 0px 5px 20px -10px #3a1c71;
+	 background: linear-gradient(110deg, #bd5c63 0%, #d7a5f2 100%);
+	 box-shadow: 0px 5px 20px -10px #000000;
 }
  .card--normal .card__type {
-	 background-color: #b8fac4;
+	 background-color: #89c4c3;
 }
  .card--water {
-	 background: linear-gradient(120deg, #1cb5e0 0%, #000851 100%);
+	 background: linear-gradient(120deg, #edd087 0%, #8f2222 100%);
 	 box-shadow: 0px 5px 20px -10px #000851;
 }
  .card--water .card__type {
-	 background-color: #1cb5e0;
+	 background-color: #7d5b45;
 }
  .card--electric {
 	 background: linear-gradient(90deg, rgba(255, 222, 0, 1) 34%, rgba(232, 255, 153, 1) 83%);
@@ -178,7 +178,7 @@ img_parpadeo {
 	 transform: translateY(0px) rotate(1deg);
 }
  card:nth-child(2) {
-	 transform: translateY(0px) rotate(3deg);
+	 transform: translateY(0px) rotate(1deg);
 }
  card:nth-child(3) {
 	 transform: translateY(0px) rotate(-3deg);
@@ -207,5 +207,3 @@ img_parpadeo {
 	 transform: translateY(-10px);
 }
  
-
-
