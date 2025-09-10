@@ -138,11 +138,11 @@ img_parpadeo {
  .card--electric .card__type {
 	 background-color: #ff8605;
 }
- .card--fire {
-	 background: linear-gradient(0deg, rgba(199, 24, 0, 1) 10%, rgba(252, 194, 69, 1) 100%);
+.card--fire {
+	 background: linear-gradient(0deg, rgba(42, 145, 59, 1) 10%, rgba(214, 21, 37, 1) 100%);
 }
  .card--fire .card__type {
-	 background-color: rgba(199, 24, 0, 1);
+	 background-color: rgba(219, 94, 94, 1);
 }
  .card--psychic {
 	 background: linear-gradient(140deg, rgba(255, 167, 249, 1) 0%, rgba(255, 44, 195, 1) 39%, rgba(255, 227, 167, 1) 100%);
